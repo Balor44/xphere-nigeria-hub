@@ -16,8 +16,8 @@ export default function About() {
         
         <div className="bg-[#161b22] border border-slate-800 rounded-2xl p-8 md:p-12 shadow-xl flex flex-col md:flex-row gap-12 items-start">
           
-          <div className="w-full md:w-1/3 shrink-0">
-            <div className="relative w-full aspect-square bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
+          <div className="w-full md:w-1/3 shrink-0 flex flex-col items-center md:items-start">
+            <div className="relative w-48 md:w-full aspect-square bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
                <Image 
                  src="/founder-profile.jpg" 
                  alt="Nwafor Obinna Balor" 

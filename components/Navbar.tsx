@@ -23,8 +23,8 @@ export default function Navbar() {
         <Link href="#tour" className="hover:text-white transition-colors">Campus Tour</Link>
         <Link href="#ecosystem" className="hover:text-white transition-colors">Ecosystem</Link>
       </div>
-      <Link href="#waitlist" className="bg-blue-600 hover:bg-blue-500 text-white px-5 py-2 rounded-md text-sm font-medium transition-colors">
-        Join the Cohort &rarr;
+      <Link href="#waitlist" className="hidden sm:inline-block bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+       Join the Cohort &rarr;
       </Link>
     </nav>
   );

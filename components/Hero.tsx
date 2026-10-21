@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
       </div>
       
-      <div className="relative w-full max-w-md mx-auto h-[350px] bg-[#161b22] rounded-xl border border-slate-800 overflow-hidden flex items-center justify-center">
+      <div className="relative w-full max-w-md mx-auto aspect-video md:aspect-[4/3] bg-[#161b22] rounded-xl border border-slate-800 overflow-hidden flex items-center justify-center">
         <Image 
           src="/hero-graphic.png" 
           alt="Xphere Developer Environment" 
